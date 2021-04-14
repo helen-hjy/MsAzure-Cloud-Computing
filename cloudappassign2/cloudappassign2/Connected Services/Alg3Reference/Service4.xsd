@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AWS_ClassLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AWS_ClassLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://lb-1393959913.us-east-1.elb.amazonaws.com/WCF3/Service.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Allocation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Energy" type="xs:double" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="ProNo" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ProcessorFrequency" nillable="true" type="q1:ArrayOfdouble" />
+      <xs:element minOccurs="0" name="Runtime" type="xs:double" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Table" nillable="true" type="q2:ArrayOfArrayOfint" />
+      <xs:element minOccurs="0" name="TaskNo" type="xs:int" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="pro_run" nillable="true" type="q3:ArrayOfdouble" />
+      <xs:element minOccurs="0" name="program_max_duration" type="xs:double" />
+      <xs:element minOccurs="0" name="task" nillable="true" type="tns:ArrayOfTask" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Allocation" nillable="true" type="tns:Allocation" />
+  <xs:complexType name="ArrayOfTask">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Task" nillable="true" type="tns:Task" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTask" nillable="true" type="tns:ArrayOfTask" />
+  <xs:complexType name="Task">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="coef0" type="xs:int" />
+      <xs:element minOccurs="0" name="coef1" type="xs:int" />
+      <xs:element minOccurs="0" name="coef2" type="xs:int" />
+      <xs:element minOccurs="0" name="energy" type="xs:double" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="processorID" type="xs:int" />
+      <xs:element minOccurs="0" name="processor_fre" type="xs:double" />
+      <xs:element minOccurs="0" name="ref_fre" type="xs:int" />
+      <xs:element minOccurs="0" name="runtime" type="xs:double" />
+      <xs:element minOccurs="0" name="runtime_underProcessor" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Task" nillable="true" type="tns:Task" />
+</xs:schema>

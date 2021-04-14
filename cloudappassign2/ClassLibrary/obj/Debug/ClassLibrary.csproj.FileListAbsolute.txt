@@ -1,0 +1,6 @@
+C:\cloudappassign2\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\cloudappassign2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\cloudappassign2\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\cloudappassign2\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\cloudappassign2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\cloudappassign2\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache

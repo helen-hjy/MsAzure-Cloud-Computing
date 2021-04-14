@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSassignment2", "cloudappassign2\AWSassignment2.csproj", "{B7C625A2-E0F8-4A93-984E-4D7E84F9E0D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A862823-C298-48CF-8C70-8741DEE4285C} = {0A862823-C298-48CF-8C70-8741DEE4285C}
+		{EF83ABBE-E92C-4196-AAE9-59677F04C73D} = {EF83ABBE-E92C-4196-AAE9-59677F04C73D}
+		{685F62C5-64BC-4799-A277-39977EF890E6} = {685F62C5-64BC-4799-A277-39977EF890E6}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCF1", "WCF1\", "{EF83ABBE-E92C-4196-AAE9-59677F04C73D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{4e91ea4e-3bdf-454e-a4cc-552397c24792}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7951"
+		Debug.AspNetCompiler.PhysicalPath = "WCF1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7951\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7951"
+		Release.AspNetCompiler.PhysicalPath = "WCF1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7951\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7951"
+		SlnRelativePath = "WCF1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCF2", "WCF2\", "{685F62C5-64BC-4799-A277-39977EF890E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{4e91ea4e-3bdf-454e-a4cc-552397c24792}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5807"
+		Debug.AspNetCompiler.PhysicalPath = "WCF2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5807\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5807"
+		Release.AspNetCompiler.PhysicalPath = "WCF2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5807\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5807"
+		SlnRelativePath = "WCF2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCF3", "WCF3\", "{0A862823-C298-48CF-8C70-8741DEE4285C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{4e91ea4e-3bdf-454e-a4cc-552397c24792}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14098"
+		Debug.AspNetCompiler.PhysicalPath = "WCF3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14098\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14098"
+		Release.AspNetCompiler.PhysicalPath = "WCF3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14098\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "14098"
+		SlnRelativePath = "WCF3\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{4E91EA4E-3BDF-454E-A4CC-552397C24792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C625A2-E0F8-4A93-984E-4D7E84F9E0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C625A2-E0F8-4A93-984E-4D7E84F9E0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C625A2-E0F8-4A93-984E-4D7E84F9E0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C625A2-E0F8-4A93-984E-4D7E84F9E0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF83ABBE-E92C-4196-AAE9-59677F04C73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF83ABBE-E92C-4196-AAE9-59677F04C73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF83ABBE-E92C-4196-AAE9-59677F04C73D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF83ABBE-E92C-4196-AAE9-59677F04C73D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{685F62C5-64BC-4799-A277-39977EF890E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685F62C5-64BC-4799-A277-39977EF890E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685F62C5-64BC-4799-A277-39977EF890E6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{685F62C5-64BC-4799-A277-39977EF890E6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0A862823-C298-48CF-8C70-8741DEE4285C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A862823-C298-48CF-8C70-8741DEE4285C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A862823-C298-48CF-8C70-8741DEE4285C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A862823-C298-48CF-8C70-8741DEE4285C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4E91EA4E-3BDF-454E-A4CC-552397C24792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E91EA4E-3BDF-454E-A4CC-552397C24792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E91EA4E-3BDF-454E-A4CC-552397C24792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E91EA4E-3BDF-454E-A4CC-552397C24792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44C6E727-B378-43C4-A66F-C63840DA2C62}
+	EndGlobalSection
+EndGlobal

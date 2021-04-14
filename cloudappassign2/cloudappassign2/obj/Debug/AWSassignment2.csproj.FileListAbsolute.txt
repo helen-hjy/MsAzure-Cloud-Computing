@@ -1,0 +1,13 @@
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.csprojAssemblyReference.cache
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.MainForm.resources
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.Properties.Resources.resources
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.csproj.GenerateResource.cache
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.csproj.CoreCompileInputs.cache
+C:\cloudappassign2\cloudappassign2\bin\Debug\AWSassignment2.exe.config
+C:\cloudappassign2\cloudappassign2\bin\Debug\AWSassignment2.exe
+C:\cloudappassign2\cloudappassign2\bin\Debug\AWSassignment2.pdb
+C:\cloudappassign2\cloudappassign2\bin\Debug\ClassLibrary.dll
+C:\cloudappassign2\cloudappassign2\bin\Debug\ClassLibrary.pdb
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.csproj.CopyComplete
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.exe
+C:\cloudappassign2\cloudappassign2\obj\Debug\AWSassignment2.pdb

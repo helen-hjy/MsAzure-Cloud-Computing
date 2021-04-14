@@ -1,0 +1,1 @@
+C:\cloudappassign2\obj\Debug\AWS_ClassLibrary.csproj.CoreCompileInputs.cache
